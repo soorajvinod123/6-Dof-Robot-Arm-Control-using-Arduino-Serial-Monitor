@@ -30,12 +30,12 @@ void setup() {
   arm4.attach(6);
   palm.attach(11);
   base.attach(9);
-  base.write(89);
-  arm1.write(40);
-  arm2.write(30);
-  arm3.write(150);
-  arm4.write(180);  
-  palm.write(120);
+  base.write(angleb);
+  arm1.write(anglec);
+  arm2.write(anglee);
+  arm3.write(anglet);
+  arm4.write(anglew);  
+  palm.write(anglep);
 }
 
 void loop() {
